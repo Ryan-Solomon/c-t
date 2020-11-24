@@ -1,0 +1,26 @@
+.navbar {
+  background: #333;
+}
+
+.navbar-items {
+  font-size: 2rem;
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+    padding: 1rem 4rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: white;
+      color: #333;
+    }
+  }
+}
